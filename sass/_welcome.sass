@@ -1,0 +1,71 @@
+.section_welcome
+  text-align: center
+  padding: 0 0 103px 0
+
+.section_welcome__content_box__category--events
+  background-image: url("../images/portfolio/welcome_event.png")
+
+.section_welcome__content_box__category--food
+  background-image: url("../images/portfolio/welcome_food.png")
+
+.section_welcome__content_box__category--venues
+  background-image: url("../images/portfolio/welcome_venues.png")
+
+.section_welcome__content_box__category
+  width: 370px
+  background-position: center
+  background-size: cover
+  position: relative
+
+.section_welcome__content_box
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  padding: 110px 0 66px 0
+
+.section_welcome__content_box__category__content
+  @include font-yellow(45px,400)
+  color: #ffffff
+  line-height: 35px
+  padding-top: 216px
+  padding-bottom: 224px
+
+.section_welcome__content_box__category__content--venues
+  padding-bottom: 259px
+.section_welcome__content_box__category__content--events
+  padding-bottom: 259px
+.section_welcome__logo_box__logo
+  @include font-serif(35px,700)
+  color: #434343
+
+.section_welcome__logo_box
+  background: url("../images/pic/icon/welcome_logo_bg.png")
+  background-repeat: no-repeat
+  background-position: 50% 81px
+  padding: 110px 0 0 0
+  position: relative
+  &:after
+    content: ''
+    display: block
+    width: 111px
+    height: 2px
+    background-color: #a7a99a
+    position: absolute
+    right: 50%
+    margin-right: -55.5px
+    bottom: -42px
+
+.section_welcome__content_box__button
+  display: block
+  margin: 0 auto
+  width: 243px
+  line-height: 60px
+  background-color: #ffb18b
+  @include font-serif(14px,700)
+  color: #ffffff
+  text-transform: uppercase
+  letter-spacing: 1.4px
+  &:hover
+    box-shadow: 0 0 10px #ffb18b
+
+

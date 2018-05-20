@@ -1,0 +1,93 @@
+.section_chef
+  position: relative
+  text-align: center
+  padding: 105px 0 483px 0
+  background: url("../images/pic/background/chef_bg.png") center no-repeat
+
+
+.section_chef__title_box__content
+  @extend .section_blog__title_box__content
+  color: #fff
+  padding-top: 5px
+
+.section_chef__title_box__title
+  @extend .section_blog__title_box__title
+  color: #fff
+.section_chef__content_box__figure__img
+  width: auto
+
+.section_chef__title_box
+  position: relative
+  &:after
+    position: absolute
+    display: block
+    content: ''
+    width: 250px
+    height: 96px
+    background-image: url("../images/pic/icon/chef_title.png")
+    background-repeat: no-repeat
+    top: 0px
+    right: 50%
+    margin-right: -125px
+  &:before
+    position: absolute
+    display: block
+    content: ''
+    width: 111px
+    height: 2px
+    background-color: #a7a99a
+    right: 50%
+    margin-right: -55.5px
+    bottom: -59px
+
+.section_chef__content_box_container
+  position: relative
+  background: #fff
+  max-width: 582px
+
+.section_chef__content_box
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  justify-content: center
+  position: absolute
+  top: 325px
+
+.section_chef__content_box_container__img
+  @include font-serif(180px,400 )
+  opacity: 0.2
+  position: absolute
+  top: 75px
+  left: 73px
+
+.section_chef__content_box_container__content
+  @include font-serif(14px,400)
+  color: #929292
+  line-height: 24px
+  padding: 94px 84px 82px 86px
+  text-align: left
+  position: relative
+  display: block
+  &:after
+    position: absolute
+    display: block
+    content: ''
+    width: 111px
+    height: 2px
+    background-color: #a7a99a
+    bottom: 41px
+    left: 86px
+
+.section_chef__content_box_container__name
+  @include font-serif(20px,700)
+
+
+.section_chef__content_box_container__chef
+  @include font-serif(14px,400)
+  color: #929292
+  display: inline-block
+  padding-bottom: 57px
+
+
+.section_chef__content_box_container__button
+  @extend .section_welcome__content_box__button

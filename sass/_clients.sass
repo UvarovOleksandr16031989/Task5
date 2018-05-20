@@ -1,0 +1,85 @@
+.section_clients
+  background-color: #f3f1ec
+  text-align: center
+  padding: 110px 0 109px 0
+
+.section_clients__title_box__content
+  @include font-serif(14px,700)
+  text-transform: uppercase
+  letter-spacing: 1.4px
+  position: relative
+  padding-bottom: 25px
+  &:after
+    position: absolute
+    display: block
+    content: ''
+    width: 250px
+    height: 96px
+    background-image: url("../images/pic/icon/clients_logo.png")
+    background-repeat: no-repeat
+    top: 0px
+    right: 50%
+    margin-right: -125px
+  &:before
+    position: absolute
+    display: block
+    content: ''
+    width: 111px
+    height: 2px
+    background-color: #a7a99a
+    right: 50%
+    margin-right: -55.5px
+    bottom: -79px
+
+.section_clients__content_box
+  padding-top: 158px
+
+.section_clients__title_box__title
+  @include font-serif(35px,700)
+  color: #434343
+
+.section_clients__content_box__aside
+  background: #fff
+  position: relative
+  text-align: center
+
+.section_clients__content_box__aside__figure_img
+  width: auto
+
+.section_clients__content_box__aside__figure
+  position: absolute
+  right: 50%
+  transform: translate( 50%, -50%)
+
+
+.section_clients__content_box__aside__content
+  @include font-serif(20px ,700)
+  line-height: 33px
+  padding: 88px 0 48px 0
+
+.section_clients__content_box__aside__box_client__content
+  @include font-serif(14px,400)
+  color: #929292
+
+.section_clients__content_box__aside__button
+  width: 60px
+  line-height: 60px
+  border-radius: 60px
+  background-color: #f3f1ec
+  transform: rotate(90deg)
+  position: absolute
+  top: 50%
+  margin-top: -30px
+  right: -30px
+
+.section_clients__content_box__aside__button--left
+  right: 0px
+  left: -30px
+  transform: rotate(275deg)
+
+.section_clients__content_box__aside__button__img
+  width: auto
+
+.section_clients__content_box__aside__box_client
+  padding: 28px 0 28px 0
+  background: radial-gradient(at center bottom, #f3f1ec, #fff) center

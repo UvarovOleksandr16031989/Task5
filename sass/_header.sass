@@ -1,0 +1,143 @@
+.section_header__menu__link
+  @include font-serif(14px,700)
+  text-transform: uppercase
+  letter-spacing: 1.4px
+  padding: 0 25px
+  border-left: 1px solid rgba(#808369 ,.5)
+  &:hover
+    text-decoration: underline
+
+.section_header--head
+  background-color: #f3f1ec
+  line-height: 56px
+  vertical-align: middle
+
+.section_header__menu__icon
+  width: auto
+  padding-right: 25px
+
+.section_header__logo_box__contact__icon
+  width: auto
+
+.section_header__logo_box__buy__img
+  width: auto
+
+.section_header
+  text-align: center
+
+.section_header__logo_box
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  flex-wrap: nowrap
+  padding: 59px 0 30px 0
+
+.section_header__logo_box__contact__tel
+  @include font-serif(14px,700)
+  text-transform: uppercase
+  letter-spacing: 1.4px
+  &:hover
+    text-decoration: underline
+
+.section_header__logo_box__contact__email
+  @include font-serif(14px,700)
+  text-transform: uppercase
+  display: block
+  letter-spacing: 1.4px
+  &:hover
+    text-decoration: underline
+
+.section_header__logo_box__contact
+  text-align: right
+  padding-left: 19px
+
+.section_header__logo_box__logo__content
+  @include font-yellow(45px,400)
+  color: #434343
+
+.section_header__logo_box__logo__content--bottom
+  @include font-serif(12px,700)
+  text-transform: uppercase
+  letter-spacing: 1.2px
+
+.section_header__logo_box__logo
+  position: relative
+  &:after
+    position: absolute
+    display: block
+    content: ''
+    background-image: url("../images/pic/icon/header_logo.png")
+    top: 30px
+    left: -85px
+    width: 273px
+    height: 81px
+
+.section_header__logo_box__buy
+  padding-right: 46px
+
+.section_header__logo_box__buy__content
+  @include font-serif(14px,700)
+  text-transform: uppercase
+  letter-spacing: 1.4px
+  line-height: 20px
+
+.section_header__content_box
+  background-image: url("../images/pic/background/header_content.png")
+  background-repeat: no-repeat
+  text-align: center
+  background-position: center
+  padding: 240px 0 227px 0
+  position: relative
+
+.section_header__content_box__content
+  position: relative
+  &:after
+    display: block
+    content: ''
+    width: 111px
+    height: 2px
+    background-color: #fff
+    position: absolute
+    right: 50%
+    bottom: -54px
+    margin-right: -55.5px
+  &:before
+    display: block
+    content: ''
+    width: 111px
+    height: 2px
+    background-color: #fff
+    position: absolute
+    right: 50%
+    top: -53px
+    margin-right: -55.5px
+
+.section_header__content_box__content__text
+  @include font-serif(60px,700)
+  color: #ffffff
+  line-height: 60px
+  text-transform: uppercase
+  letter-spacing: 6px
+
+.section_header__content_box__link
+  width: 273px
+  line-height: 72px
+  vertical-align: middle
+  display: block
+  background-color: #ffb18b
+  margin: 0 auto
+  @include font-serif(16px,700)
+  color: #ffffff
+  text-transform: uppercase
+  letter-spacing: 1.6px
+  margin-top: 116px
+  &:hover
+    box-shadow: 0 0 10px #fff
+
+.section_header__content_box__button
+  position: absolute
+  bottom: 0
+  right: 50%
+  margin-right: -5.5px
+
+

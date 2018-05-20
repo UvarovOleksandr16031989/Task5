@@ -1,0 +1,29 @@
+@mixin font-serif($size,$weight)
+  font-family: 'PT Serif', serif
+  font-weight: $weight
+  font-size: $size
+  color: #808369
+
+@mixin font-yellow($size,$weight)
+  font-family: 'Yellowtail', cursive
+  font-weight: $weight
+  font-size: $size
+
+
+
+.container
+  max-width: 1169px
+  margin: 0 auto
+  position: relative
+
+.clearfix
+  &:after
+    content: ''
+    display: table
+    clear: both
+
+.section_welcome__logo_box__catering
+  @include font-serif(14px,700)
+  text-transform: uppercase
+  letter-spacing: 1.4px
+
