@@ -1,0 +1,71 @@
+.section_footer
+  text-align: center
+  padding: 124px 0 40px 0
+
+.section_footer__box__contact
+  text-align: right
+
+.section_footer__box__contact__number
+  @extend .section_header__logo_box__contact__tel
+
+.section_footer__box__contact__mail
+  @extend .section_header__logo_box__contact__email
+
+.section_footer__box
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  justify-content: space-between
+  max-width: 760px
+  margin: 0 auto
+
+.section_footer__box__title_box
+  @extend .section_header__logo_box__logo
+  transform: translate(-20px, -56px)
+
+.section_footer__box__title_box__title_top
+  @extend .section_header__logo_box__logo__content
+  transform: translate(-5px, 20px)
+
+.section_footer__box__title_box__title_bottom
+  @extend .section_header__logo_box__logo__content
+
+.section_footer__box__title_box__title_content
+  @extend .section_header__logo_box__logo__content--bottom
+
+.section_footer__box__address__content_top
+  @include font-serif(14px,700)
+  line-height: 20px
+  text-transform: uppercase
+  letter-spacing: 1.4px
+
+.section_footer__box__address__content_bottom
+  @extend .section_footer__box__address__content_top
+
+.section_footer__social_network__link
+  display: inline-block
+  width: 42px
+  line-height: 42px
+  text-align: center
+  vertical-align: middle
+  background-color: #a7a99a
+  border-radius: 50px
+  cursor: pointer
+  &:hover
+    box-shadow: 0 0 10px #a7a99a
+
+.section_footer__social_network__figure__img
+  width: auto
+
+.section_footer__social_network
+  padding: 75px 0 56px 0
+
+.section_footer__failure__link
+  text-decoration: underline
+  @extend .section_footer__failure
+  cursor: pointer
+
+.section_footer__failure
+  @include font-serif(14px,400)
+  color: #929292
+  line-height: 24px

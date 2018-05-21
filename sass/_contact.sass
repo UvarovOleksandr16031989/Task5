@@ -1,0 +1,71 @@
+.section_contact
+  text-align: center
+  background-color: #f3f1ec
+  padding: 110px 0
+  position: relative
+
+.section_contact__title_box__content
+  @extend .section_team__title_box__content
+
+.section_contact__title_box__title
+  @extend .section_menu__title_box__title
+
+.section_contact__title_box
+  @extend .section_blog__title_box
+
+.section_contact__form
+  padding: 107px 0 0px 0
+
+.section_contact__form__box__name
+  @include font-serif(14px,700)
+  text-transform: uppercase
+  letter-spacing: 1.4px
+  padding-left: 43px
+  width: 327px
+  height: 66px
+  background-color: #ffffff
+
+.section_contact__form__box__mail
+  @extend .section_contact__form__box__name
+
+.section_contact__form__box
+  max-width: 769px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  margin: 0 auto
+  padding-bottom: 29px
+
+.section_contact__form__box__textarea
+  @extend .section_contact__form__box__name
+  border: none
+  width: 726px
+  height: 180px
+  padding-top: 28px
+
+.section_contact__form__button
+  @extend .section_gallery__button
+  margin-top: 58px
+
+.section_contact__bottom_button__img
+  width: auto
+  transform: rotate(180deg) translateY(14px)
+
+.section_contact__bottom_button__text
+  @include font-serif(12px,700)
+  line-height: 20px
+  text-transform: uppercase
+  letter-spacing: 1.2px
+  transform: translateY(-50px)
+
+.section_contact__bottom_button--box
+  position: absolute
+  width: 116px
+  line-height: 89px
+  vertical-align: middle
+  text-align: center
+  border-radius: 100px
+  background: #fff
+  bottom: -184px
+  right: 50%
+  margin-right: -58px

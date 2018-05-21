@@ -36,20 +36,19 @@
   @include font-serif(14px,700)
   text-transform: uppercase
   letter-spacing: 1.4px
+  cursor: pointer
   &:hover
     text-decoration: underline
 
 .section_header__logo_box__contact__email
-  @include font-serif(14px,700)
-  text-transform: uppercase
+  @extend .section_header__logo_box__contact__tel
   display: block
-  letter-spacing: 1.4px
-  &:hover
-    text-decoration: underline
 
 .section_header__logo_box__contact
   text-align: right
   padding-left: 19px
+.section_header__logo_box__logo__content--top
+  transform: translate(-5px, 20px)
 
 .section_header__logo_box__logo__content
   @include font-yellow(45px,400)
@@ -62,6 +61,7 @@
 
 .section_header__logo_box__logo
   position: relative
+  transform: translate(-20px, -22px)
   &:after
     position: absolute
     display: block
@@ -74,6 +74,7 @@
 
 .section_header__logo_box__buy
   padding-right: 46px
+  text-align: right
 
 .section_header__logo_box__buy__content
   @include font-serif(14px,700)

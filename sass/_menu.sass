@@ -4,7 +4,7 @@
   padding: 270px 0 120px 0
 
 .section_menu__title_box__catering
-  @extend .section_welcome__logo_box__catering
+  @extend .section_team__title_box__content
 
 .section_menu__title_box__title
   @extend .section_welcome__logo_box__logo
@@ -64,25 +64,4 @@
   position: relative
 
 .section_menu__title_box
-  position: relative
-  &:after
-    position: absolute
-    display: block
-    content: ''
-    width: 250px
-    height: 96px
-    background-image: url("../images/pic/icon/menu_logo.png")
-    background-repeat: no-repeat
-    top: 0px
-    right: 50%
-    margin-right: -125px
-  &:before
-    position: absolute
-    display: block
-    content: ''
-    width: 111px
-    height: 2px
-    background-color: #a7a99a
-    right: 50%
-    margin-right: -55.5px
-    bottom: -59px
+  @extend .section_blog__title_box

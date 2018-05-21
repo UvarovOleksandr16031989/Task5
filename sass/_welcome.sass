@@ -1,6 +1,6 @@
 .section_welcome
   text-align: center
-  padding: 0 0 103px 0
+  padding: 105px 0 103px 0
 
 .section_welcome__content_box__category--events
   background-image: url("../images/portfolio/welcome_event.png")
@@ -39,21 +39,7 @@
   color: #434343
 
 .section_welcome__logo_box
-  background: url("../images/pic/icon/welcome_logo_bg.png")
-  background-repeat: no-repeat
-  background-position: 50% 81px
-  padding: 110px 0 0 0
-  position: relative
-  &:after
-    content: ''
-    display: block
-    width: 111px
-    height: 2px
-    background-color: #a7a99a
-    position: absolute
-    right: 50%
-    margin-right: -55.5px
-    bottom: -42px
+  @extend .section_blog__title_box
 
 .section_welcome__content_box__button
   display: block

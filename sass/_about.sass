@@ -10,6 +10,7 @@
   color: #ffffff
   text-transform: uppercase
   letter-spacing: 1.4px
+  padding-bottom: 25px
 
 .section_about__logo_box_content
   @include font-serif(35px,700)
@@ -68,9 +69,6 @@
     box-shadow: 0 0 10px #ffb18b
 
 .section_about__logo_box
-  background: url("../images/pic/icon/about_logo.png")
-  background-repeat: no-repeat
-  background-position: 50% 80px
   padding-top: 110px
   position: relative
   &:after
@@ -83,3 +81,14 @@
     bottom: -42px
     right: 50%
     margin-right: -55.5px
+  &:before
+    position: absolute
+    display: block
+    content: ''
+    width: 250px
+    height: 96px
+    background-image: url(../images/pic/icon/about_logo.png)
+    background-repeat: no-repeat
+    bottom: 16px
+    right: 50%
+    margin-right: -125px

@@ -6,39 +6,17 @@
 
 
 .section_chef__title_box__content
-  @extend .section_blog__title_box__content
-  color: #fff
-  padding-top: 5px
+  @extend .section_about__logo_box__about
+
 
 .section_chef__title_box__title
-  @extend .section_blog__title_box__title
-  color: #fff
+  @extend .section_about__logo_box_content
+
 .section_chef__content_box__figure__img
   width: auto
 
 .section_chef__title_box
-  position: relative
-  &:after
-    position: absolute
-    display: block
-    content: ''
-    width: 250px
-    height: 96px
-    background-image: url("../images/pic/icon/chef_title.png")
-    background-repeat: no-repeat
-    top: 0px
-    right: 50%
-    margin-right: -125px
-  &:before
-    position: absolute
-    display: block
-    content: ''
-    width: 111px
-    height: 2px
-    background-color: #a7a99a
-    right: 50%
-    margin-right: -55.5px
-    bottom: -59px
+ @extend .section_about__logo_box
 
 .section_chef__content_box_container
   position: relative
