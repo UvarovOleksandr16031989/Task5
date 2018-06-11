@@ -1,27 +1,31 @@
 .section_chef
   position: relative
   text-align: center
-  padding: 105px 0 483px 0
+  padding: 7px 0 483px 0
   background: url("../images/pic/background/chef_bg.png") center no-repeat
 
 
 .section_chef__title_box__content
   @extend .section_about__logo_box__about
+  padding-bottom: 17px
 
 
 .section_chef__title_box__title
   @extend .section_about__logo_box_content
+  line-height: 40px
 
 .section_chef__content_box__figure__img
   width: auto
 
 .section_chef__title_box
- @extend .section_about__logo_box
+  @extend .section_about__logo_box
+  margin-left: -1px
 
 .section_chef__content_box_container
   position: relative
   background: #fff
   max-width: 582px
+  text-align: left
 
 .section_chef__content_box
   display: flex
@@ -30,19 +34,20 @@
   justify-content: center
   position: absolute
   top: 325px
+  left: -3px
 
 .section_chef__content_box_container__img
   @include font-serif(180px,400 )
   opacity: 0.2
   position: absolute
-  top: 75px
+  top: 67px
   left: 73px
 
 .section_chef__content_box_container__content
   @include font-serif(14px,400)
   color: #929292
   line-height: 24px
-  padding: 94px 84px 82px 86px
+  padding: 88px 84px 75px 86px
   text-align: left
   position: relative
   display: block
@@ -53,19 +58,22 @@
     width: 111px
     height: 2px
     background-color: #a7a99a
-    bottom: 41px
+    bottom: 38px
     left: 86px
 
 .section_chef__content_box_container__name
   @include font-serif(20px,700)
+  padding-left: 87px
 
 
 .section_chef__content_box_container__chef
   @include font-serif(14px,400)
   color: #929292
   display: inline-block
-  padding-bottom: 57px
+  padding-bottom: 59px
 
 
 .section_chef__content_box_container__button
   @extend .section_welcome__content_box__button
+  text-align: center
+  margin-left: 87px

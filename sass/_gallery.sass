@@ -1,6 +1,6 @@
 .section_gallery
   text-align: center
-  padding: 105px 0 109px 0
+  padding: 134px 0 109px 0
   max-width: 1815px
 
 .section_gallery__title_box__content
@@ -8,15 +8,19 @@
 
 .section_gallery__title_box__title
   @extend .section_menu__title_box__title
+  padding-top: 15.5px
+  line-height: 41px
 
 .section_gallery__title_box
   @extend .section_blog__title_box
+  &:before
+    bottom: -42px
 
 .section_gallery__gallery_box
   display: flex
   flex-direction: row
   justify-content: space-between
-  padding: 103px 0 57px 0
+  padding: 103px 0 32px 0
   flex-wrap: wrap
 
 

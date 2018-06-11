@@ -1,8 +1,11 @@
 .section_event__title_box__services
   @extend  .section_team__title_box__content
+  margin-left: -3px
+  padding-bottom: 0px
 
 .section_event__title_box__title
   @extend .section_welcome__logo_box__logo
+  margin-left: 9px
 
 .section_event__content_box__aside__title
   @include font-serif(18px,700)
@@ -11,6 +14,7 @@
   vertical-align: top
   position: relative
   top: 6px
+  padding: 0 11px
   &:after
     display: block
     content: ''
@@ -18,10 +22,11 @@
     height: 2px
     background-color: #a7a99a
     position: absolute
-    right: 10px
-    bottom: -13px
+    right: 20px
+    bottom: -18px
 
 .section_event__content_box__aside__title--after
+  padding-left: 7px
   &:after
     display: block
     content: ''
@@ -29,8 +34,13 @@
     height: 2px
     background-color: #a7a99a
     position: absolute
-    left: 0px
-    bottom: -13px
+    left: 6px
+    bottom: -18px
+
+.section_event__title_box__title--bottom
+  margin-top: 6px
+  margin-left: -9px
+  display: inline-block
 
 .section_event__content_box__aside__number
   @include font-serif(40px,700)
@@ -41,26 +51,48 @@
   @include font-serif(14px,400)
   color: #929292
   line-height: 24px
-  padding: 32px 0
+  padding: 32px 0 40px 0
 
 .section_event__content_box__aside--align_rht
   text-align: right
+  transform: translateX(-15px)
+
+
+.section_event__content_box__aside--align_rht>.section_event__content_box__aside__content
+  padding-right: 72px
+  transform: translate(7px,-1px)
 
 .section_event__content_box__aside__img
   width: auto
+
 
 .section_event__content_box
   display: flex
   flex-direction: row
   flex-wrap: wrap
-  justify-content: space-between
-  padding: 160px 0 65px 0
+  justify-content: center
+  padding: 103px 0 21px 0
+
+.section_event__content_box__aside--center
+  padding: 0 37px
+  margin-left: -18px
+  margin-top: 5px
+
+.section_event__content_box__aside--right>.section_event__content_box__aside__content
+  padding-left: 57px
+  transform: translate(5px,-1px)
+
 
 .section_event__title_box
   text-align: center
   @extend .section_blog__title_box
+  &:after
+    top: -2px
+    margin-right: -122px
+  &:before
+
 .section_event
-  padding: 109px 0 110px 0
+  padding: 107px 0 110px 0
 
 .section_event__button
   width: 242px
@@ -73,5 +105,7 @@
   color: #ffffff
   text-transform: uppercase
   letter-spacing: 1.4px
+  position: relative
+  left: -2px
   &:hover
     box-shadow: 0 0 10px  #ffb18b
